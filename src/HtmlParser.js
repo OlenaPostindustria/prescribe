@@ -32,6 +32,7 @@ export default class HtmlParser {
    * @param {boolean} options.autoFix Set to true to automatically fix errors
    */
   constructor(stream = '', options = {}) {
+    console.log("HtmlParser");
     this.stream = stream;
 
     let fix = false;
